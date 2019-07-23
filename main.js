@@ -1,37 +1,41 @@
-const classroom = ['Colin', 'Mesuara'];
-
+const classroom = ['Colin', 'Mesuara', 'Emma', 'Mike', 'John', 'Nick', 'In Seop', 'Chris', 'Iseal', 'Ryan','Olgy', 'Shelby', ];
+const absent = ""
 console.log('# Challenge #1');
 
 // Manually add every student BUT yourself to the above array by directly writing the strings in there, and console out how many are in there, using `length`.
 
+console.log(classroom)
 
 
 console.log('# Challenge #2');
 
 // Now use `push` to get yourself in there, and console out the new length.
-
-
-
+classroom.push('Drew')
+console.log(classroom)
 console.log('# Challenge #3');
 
 // Now console out the 1st person. It should be 'Colin'!
-
-
+classroom.shift()
+console.log(classroom)
 
 console.log('# Challenge #4');
 
 // Console out the 5th person. Don't forget to start counting at 0!
 
-
+classroom[4] = absent
+console.log(classroom)
 console.log('# Challenge #5');
 
 // Now console out the last, but use `length` to find it. It should be yourself!
-
+classroom.pop()
+console.log(classroom)
 
 
 console.log('# Challenge #6');
 
 // Now console out the next to last, still using `length`.
+classroom[9] = absent
+console.log(classroom)
 
 
 
